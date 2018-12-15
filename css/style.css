@@ -1,0 +1,209 @@
+.body{ padding-top: 70px; overflow: hidden}
+
+h1, h2, h3, h4, h5, .lead {font-family: 'Droid Sans', sans-serif}
+
+.navbar{min-height: 70px}
+
+.navbar-inverse .navbar-nav > li > a { color: #BBB; padding-bottom: 25px; padding-top: 25px; font-size: 16px }
+
+.navbar-inverse .navbar-brand { color: #BBB; font-size: 30px; line-height: 40px }
+
+.dropdown-menu {background-color:#333;min-width:200px}
+
+.navbar-right .dropdown-menu {  left: 0;  right: auto }
+
+.dropdown-menu > li >a {  color: #fff; padding: 6px 20px; -webkit-transition:padding 0.5s ease;
+    -moz-transition:padding 0.5s ease; -o-transition:padding 0.5s ease; transition:padding 0.5s ease }
+
+.dropdown-menu > li >a:hover,
+.dropdown-menu > li > a:focus {padding-left: 25px; color:#fff}
+
+.dropdown-menu .divider{  background-color:#871818 }
+
+.navbar-toggle{  margin-top: 18px }
+
+.carousel-caption{ bottom:170px; background: rgba(3,3,3,0.3); padding-right: 20px; padding-left: 20px }
+
+.carousel-indicators{bottom: 0}
+
+.carousel-indicators li{  height: 15px;   width: 15px;  border: 1px solid #EEE }
+
+.carousel-indicators .active { height: 17px;  width: 17px;   }
+
+.carousel-inner > .item > img{  width: 100% }
+
+.option-box{  position: fixed; top: 100px; left: 0; z-index: 9999}
+
+.option-box .color-option { float: left;   background: #333; color: #fff; padding: 10px; width: 200px; display: none }
+
+.option-box .color-option ul li{  width: 20px; height: 20px; display: inline-block; cursor: pointer;  margin-right: 3px }
+
+.option-box .gear-check { padding: 5px; color: #fff;  cursor: pointer }
+
+.about{    padding-top: 30px; padding-bottom: 60px }
+
+.about .lead{ color: #888;  font-size: 25px;  margin-top: 15px }
+
+.features{   background: #EEE ;   color: #080808}
+
+.features .feat {   margin-bottom: 50px;   margin-top: 30px}
+
+.features .feat p { line-height:24px; font-size: 14px }
+
+.features .h1{ margin-top: 30px}
+
+.features .feat span.glyphicon{ font-size: 20px; margin-top: 20px; margin-bottom: 15px}
+
+.testimonials{ padding-top: 50px;padding-bottom: 50px}
+
+.testimonials .h1{ font-weight: bold;   margin-bottom: 20px}
+
+.testimonials .lead { line-height: 1.3em; margin-bottom: 10px }
+
+.testimonials span{ font-size: 18px;  font-weight: bold }
+
+.testimonials .carousel-inner{   min-height: 160px }
+
+.testimonials .carousel-indicators { position: static;   width: 100%; margin-left: auto}
+
+.testimonials .carousel-indicators li{ text-indent: 0;  width: 80px; height: 80px; opacity:0.4; border: 3px solid #fff; border-radius: 50%; overflow: hidden; margin: 5px;}
+
+.testimonials .carousel-indicators li.active { width: 80px;  height: 80px; opacity: 1;  background: none }
+
+.testimonials .carousel-indicators li img{  max-width: 100% }
+
+.price_table {background:#EEE}
+
+.price_table .price_box { background:#FFF; padding:10px;  border:1px solid #DDD; margin-bottom:15px }
+
+.price_table .price_box h2 {margin:5px 0 15px}
+
+.price_table .price_box:hover p {  -webkit-transform:scale(1.1,1.1) rotate(360deg); -moz-transform:scale(1.1,1.1) rotate(360deg); -o-transform:scale(1.1,1.1) rotate(360deg); transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF}
+
+.price_table .price_box p { font-size:35px; font-weight:bold; color:#666;  width:100px;  height:100px;  background:#F3F3F3; border-radius:50%;  line-height:100px;  border:2px solid #FFF}
+
+.price_table .price_box ul {line-height:250%;font-size:18px}
+
+.price_table .price_box a {margin-bottom:5px}
+
+.our_team { background: url('../images/02.jpg')no-repeat center center fixed; width: 100%; min-height: 600px }
+
+.our_team .team { background: rgba(2,2,2,0.78); color: #fff; min-height: 600px; padding-top: 40px; padding-bottom: 40px}
+
+.our_team .h1{ margin-bottom: 60px}
+
+.our_team .person{ margin-bottom: 40px }
+
+.subscribe {padding-top:40px; padding-bottom:70px; background: #EEE}
+
+.subscribe .h1{color: #888; letter-spacing: 2px; margin-bottom:20px}
+
+.subscribe p{ margin-bottom: 30px }
+
+.subscribe .form-control
+{ border-radius: 0;   margin-right: -5px; width: 300px}
+
+.subscribe button{  border-radius: 0 }
+
+.statistics{  background: url('../images/02.jpg') no-repeat center center fixed;  min-height: 300px}
+
+.statistics .data
+{  background-color: rgba(2,2,2,0.78); color: #B6B5B5;  min-height: 300px; padding-bottom: 70px; padding-top: 40px}
+
+.statistics .h1{ margin-bottom: 60px}
+
+.statistics .stats:hover{ color: #fff }
+
+.statistics p { font-size: 60px; font-weight:bold; margin-bottom: 0 }
+
+.statistics span{ font-size: 18px }
+
+.our-skills{ padding-bottom: 70px;  padding-top: 40px }
+
+.our-skills .h1{margin-bottom: 60px}
+
+.our-skills h3{font-weight: bold; margin-top: 0}
+
+.our-skills .progress{height: 36px}
+
+.our-skills .progress-bar{ line-height: 36px;font-size: 15px;font-weight: bold;text-align: left;text-indent: 10px }
+
+.contact-us{ background: url('../images/02.jpg') no-repeat center center fixed; min-height: 300px }
+
+.contact-us .fields{ background: rgba(9,9,9,0.78); min-height: 300px; color: #ddd; padding-top: 40px; padding-bottom: 40px}
+
+.contact-us p{margin-bottom: 40px}
+
+.contact-us textarea{height: 108px}
+
+.our-clients{ background: #EEE;  padding-top: 20px; padding-bottom: 20px}
+
+.our-clients img { opacity: 0.4; margin-top: 20px; margin-bottom: 20px; filter: alpha(opacity=40)}
+
+.our-clients img:hover{  opacity: 1}
+
+.footer{  background: #111; color: #AAA; padding-top: 10px }
+
+.footer a{ color: #AAA }
+
+.footer a:hover{  color: #FFF }
+
+.footer h3{  letter-spacing:1px;  margin: 30px 0 20px }
+
+.footer .three-columns{ overflow: hidden }
+
+.footer .three-columns li { width: 33.3333%; float: left;  padding: 5px 0}
+
+.footer .social-list{ overflow: hidden; margin: 20px 0 10px}
+
+.footer .social-list li{ float: left; margin-right: 3px; opacity: 0.7; filter: alpha(opacity=70)}
+
+.footer .social-list li:hover{opacity: 1}
+
+.footer .img-thumbanil{ background: rgba(0,0,0,0.2);  border: 1px solid #444; margin-bottom: 5px}
+
+.footer .copyright{ background: #333; color: #AAA; padding:  15px 0; margin-top: 30px;  font-size: 18px }
+
+.loading-overlay { background:#222; color:#FFF; position:fixed; left:0; top:0; width:100%; height:100%; z-index:99999}
+
+.spinner { width: 60px; height: 60px; position: relative;  margin: 300px auto}
+
+.double-bounce1, .double-bounce2 { width: 100%; height: 100%; border-radius: 50%; background-color: #FFF; opacity: 0.6; position: absolute; top: 0; left: 0; -webkit-animation: bounce 2.0s infinite ease-in-out; animation: bounce 2.0s infinite ease-in-out }
+
+.double-bounce2 { -webkit-animation-delay: -1.0s; animation-delay: -1.0s}
+
+@-webkit-keyframes bounce { 0%, 100% { -webkit-transform: scale(0.0) } 50% { -webkit-transform: scale(1.0) }}
+
+@keyframes bounce { 0%, 100% {  transform: scale(0.0); -webkit-transform: scale(0.0); } 50% { 
+    transform: scale(1.0); -webkit-transform: scale(1.0);}}
+
+
+
+
+
+
+#scroll-top { width: 50px;height: 40px; color: #DDD;background-color: #272727;text-align: center;position: fixed;right: 15px;bottom: 10px;z-index: 9999;display: none;cursor: pointer}
+
+#scroll-top:hover{background-color: #444 }
+
+.contact-us ,.statistics ,.our_team
+{ -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover}
+
+.footer .social-list li,
+.our-clients img,
+.statistics .stats,
+.price_table .price_box p,
+.testimonials .carousel-indicators li
+{ -webkit-transition:all 0.5s ease-in-out; -moz-transition:all 0.5s ease-in-out;  -o-transition:all 0.5s ease-in-out; transition:all 0.5s ease-in-out}
+
+.features .h1, .statistics .stats { margin-bottom: 30px }
+
+@media(max-width:767px)
+{
+    .navbar-inverse .navbar-nav>li>a  {  padding-top: 10px;   padding-bottom: 10px}
+   
+	.subscribe .form-control {   margin: 20px auto;   width: 400px }
+	
+	.navbar-fixed-top .navbar-collapse,	.navbar-fixed-bottom .navbar-collapse	{	max-height: none }
+}
